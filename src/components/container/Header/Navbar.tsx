@@ -15,7 +15,7 @@ export const Navbar = () => {
       <motion.div
         initial={{
           opacity: 0,
-          x: -200,
+          x: -50,
         }}
         animate={{
           opacity: 1,
@@ -26,7 +26,7 @@ export const Navbar = () => {
         whileHover={{
           boxShadow: "0px 0px 10px 1px rgba(255, 255, 255, 0.5)",
         }}
-        className={`${showMenu ? "rounded-16 items-top py-16" : "rounded-full items-center py-0"} flex w-full max-w-1440 bg-black/40 backdrop-blur-lg   justify-between px-16 md:w-528 md:h-48 gap-24 md:px-24 md:justify-center md:bg-black/20`}
+        className={`${showMenu ? "rounded-16 items-top py-16" : "rounded-full items-center py-0"} flex w-full bg-black/40 backdrop-blur-lg   justify-between px-16 md:w-528 md:h-48 gap-24 md:px-24 md:justify-center md:bg-black/20`}
       >
         <a href="/" onClick={closeMenu}>
           <h1 className="text-xl font-bold md:text-[20px]/[34px] md:w-60 hover:text-primary-300 ">

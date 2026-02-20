@@ -111,7 +111,7 @@ export const Hero = () => {
           </p>
         </div>
         <Link href="#InputMail">
-          <Button className="w-361 cursor-pointer flex h-48 p-8 gap-8 hover:scale-102 hover:shadow-[0px_0px_10px_1px_rgba(255,255,255,0.5)] transition-all ease-in-out duration-700 delay-100 bg-primary-300 rounded-none text-sm font-semibold border-none lg:w-287 lg:h-56">
+          <Button className="w-full cursor-pointer flex h-48 p-8 gap-8 hover:scale-102 hover:shadow-[0px_0px_10px_1px_rgba(255,255,255,0.5)] transition-all ease-in-out duration-700 delay-100 bg-primary-300 rounded-none text-sm font-semibold border-none lg:w-287 lg:h-56">
             <Image src={mail} alt="mail" className="w-24 h-24" />
             <p>Hire Me</p>
           </Button>

@@ -100,13 +100,13 @@ export const Faq = () => {
             x: 0,
           }}
           transition={{ ease: "easeInOut", duration: 0.9 }}
-          className="h-486 w-361 bg-linear-to-tl from-[#22252B] from-60% to-[#149BB0] flex items-center justify-center md:h-full md:w-full"
+          className="h-486 w-full bg-linear-to-tl from-[#22252B] from-60% to-[#149BB0] flex items-center justify-center md:h-full md:w-full"
         >
           {/* box1 */}
           {TestimonialList.filter((item) => item.id === 1).map((item) => (
             <div
               key={item.id}
-              className="p-20 gap-24 bg-black bg-linear bg-linear-140  from-primary-300/40 to-transparent to-70%  h-484 w-359 flex flex-col justify-between md:h-[99.5%] md:w-[99.5%] "
+              className="p-20 gap-24 bg-black bg-linear bg-linear-140  from-primary-300/40 to-transparent to-70%   flex flex-col justify-between h-[99.5%] w-[99.5%] "
             >
               <div className="flex flex-col w-full gap-8">
                 <h1 className="text-[28px]/[38px] lg:text-[36px]/[44px] lg:tracking-tight font-bold ">
@@ -155,7 +155,7 @@ export const Faq = () => {
               }}
               transition={{ ease: "easeInOut", duration: 0.9 }}
               key={item.id}
-              className="p-20 gap-24 border border-neutral-900 w-361 md:w-full flex flex-col"
+              className="p-20 gap-24 border border-neutral-900 w-full md:w-full flex flex-col"
             >
               <div className="flex flex-col w-full gap-8">
                 <h1 className="text-[28px]/[38px] lg:text-[36px]/[44px] lg:tracking-tight font-bold ">
@@ -204,7 +204,7 @@ export const Faq = () => {
             ).map((item) => (
               <div
                 key={item.id}
-                className="p-20 gap-24 border border-neutral-900 w-361 flex flex-col md:w-full"
+                className="p-20 gap-24 border border-neutral-900 w-full flex flex-col md:w-full"
               >
                 <div className="flex flex-col w-full gap-8">
                   <Image

@@ -111,7 +111,7 @@ export const ToolsUse = () => {
       transition={{ ease: "easeInOut", duration: 0.9 }}
       className="w-full flex flex-col items-center gap-24 px-16 py-40 md:flex-row md:px-40 lg:px-120 lg:py-80 lg:gap-191 "
     >
-      <div className="w-361 flex flex-col gap-24 md:h-529 md:w-fit lg:w-full lg:max-w-367 md:justify-between">
+      <div className="w-full flex flex-col gap-24 md:h-529 md:w-fit lg:w-full lg:max-w-367 md:justify-between">
         <div className="w-full flex flex-col gap-8 lg:gap-16">
           <h1 className="font-bold text-[32px]/[42px] lg:text-[48px]/[60px] tracking-[-0.05em] ">
             Tools I Use to Build
@@ -130,7 +130,7 @@ export const ToolsUse = () => {
       </div>
       <ScrollArea
         type="always"
-        className="w-361 h-529 md:max-w-642 md:w-full gap-24 flex pb-15 "
+        className="w-full h-529 max-w-642 gap-24 flex pb-15 "
       >
         <div className="flex flex-col w-full h-full gap-15 md:pl-24 md:border-l md:border-neutral-900">
           {Tools.map((item, index) => (

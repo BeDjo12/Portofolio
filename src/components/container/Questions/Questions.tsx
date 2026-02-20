@@ -100,7 +100,7 @@ export const Questions = () => {
           x: 0,
         }}
         transition={{ ease: "easeInOut", duration: 0.9 }}
-        className="w-353 md:w-full flex flex-col md:flex-row justify-between md:items-center gap-25 md:pr-40 lg:pr-120"
+        className="w-full max-w-353 md:min-w-full flex flex-col md:flex-row justify-between md:items-center gap-25 md:pr-40 lg:pr-120"
       >
         <div className="flex flex-col gap-8 lg:gap-16">
           <h1 className="text-[32px]/[42px] tracking-[-0.04em] lg:text-[48px]/[60px] lg:tracking-[-0.05em] font-bold ">
@@ -141,7 +141,7 @@ export const Questions = () => {
           x: 0,
         }}
         transition={{ ease: "easeInOut", duration: 0.9 }}
-        className="w-353 md:w-full"
+        className="w-full max-w-353 md:max-w-1440"
       >
         <CarouselContent className="flex w-full gap-10 h-356 lg:h-466 md:active:cursor-grab">
           {Quest.map((map, index) => {

@@ -61,7 +61,7 @@ export const MyJourney = () => {
   }, [api, onScroll]);
   const widthProgress = useTransform(scrollRaw, [0, 1], ["33%", "100%"]);
   return (
-    <div className="w-full  gap-24 px-16 py-40 flex flex-col items-center lg:gap-48 md:px-40 lg:pl-120 lg:py-80 lg:pr-16">
+    <div className="w-full gap-24 px-16 py-40 flex flex-col items-center lg:gap-48 md:px-40 lg:pl-120 lg:py-80 lg:pr-16">
       <motion.div
         initial={{
           filter: "blur(20px)",
@@ -74,7 +74,7 @@ export const MyJourney = () => {
           y: 0,
         }}
         transition={{ ease: "easeInOut", duration: 0.9 }}
-        className="md:w-full w-361 flex flex-col gap-8 lg:gap-16"
+        className="md:w-full max-w-361 flex flex-col gap-8 lg:gap-16"
       >
         <h1 className="font-bold text-[32px]/[42px] lg:text-[48px]/[60px] lg:tracking-[-0.05em] tracking-[-0.04em] ">
           My Journey in Tech
@@ -100,7 +100,7 @@ export const MyJourney = () => {
       >
         <Carousel
           setApi={setApi}
-          className=" w-361 md:w-full flex flex-col h-427 gap-16 lg:h-480 lg:gap-48"
+          className="w-full max-w-361 md:max-w-1440 flex flex-col h-427 gap-16 lg:h-480 lg:gap-48"
         >
           <CarouselContent className="w-361 md:w-564 flex pl-4 gap-20">
             {Journey.map((map) => (

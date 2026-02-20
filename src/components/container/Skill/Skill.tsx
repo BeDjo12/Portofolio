@@ -82,9 +82,9 @@ export const Skill = () => {
           y: 0,
         }}
         transition={{ ease: "easeInOut", duration: 0.9 }}
-        className="w-361 bg-black border border-neutral-900 flex z-10 p-12 md:w-full md:p-24"
+        className="w-full bg-black border border-neutral-900 flex z-10 p-12 md:p-24"
       >
-        <div className="w-205 md:w-[34%] divide-y divide-neutral-900 ">
+        <div className="w-[56%] md:w-[34%] divide-y divide-neutral-900 ">
           <p className="h-72 flex px-12 md:px-24 items-center text-[16px]/[30px] tracking-[-0.03em] lg:text-[24px]/[36px]  ">
             Skill
           </p>
@@ -97,7 +97,7 @@ export const Skill = () => {
             </p>
           ))}
         </div>
-        <div className="divide-y w-66 md:w-[33%] divide-white/40 bg-primary-400">
+        <div className="divide-y w-[20%] md:w-[33%] divide-white/40 bg-primary-400">
           <p className="  h-72 flex px-12 md:px-24 items-center text-[16px]/[30px] tracking-[-0.03em] lg:text-[24px]/[36px]">
             With Me
           </p>
@@ -109,7 +109,7 @@ export const Skill = () => {
             </div>
           ))}
         </div>
-        <div className="divide-y w-66 md:w-[33%] divide-neutral-900">
+        <div className="divide-y w-[20%] md:w-[33%] divide-neutral-900">
           <p className="h-72 flex px-12 md:px-24 items-center text-[16px]/[30px] tracking-[-0.03em] lg:text-[24px]/[36px]">
             Other
           </p>

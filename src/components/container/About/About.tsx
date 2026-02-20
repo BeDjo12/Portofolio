@@ -85,7 +85,7 @@ export const About = () => {
             x: 0,
           }}
           transition={{ ease: "easeInOut", duration: 0.9 }}
-          className="min-w-361 h-409 lg:min-w-453 lg:h-513 overflow-hidden"
+          className="w-full h-409 lg:min-w-453 lg:h-513 overflow-hidden"
         >
           <Image
             src={Pic}
@@ -105,7 +105,7 @@ export const About = () => {
             x: 0,
           }}
           transition={{ ease: "easeInOut", duration: 0.6 }}
-          className="grid grid-cols-1 w-361 md:w-full gap-24 md:grid-cols-2 lg:gap-40"
+          className="grid grid-cols-1 w-full md:w-full gap-24 md:grid-cols-2 lg:gap-40"
         >
           {AboutUs.map((item, index) => (
             <React.Fragment key={item.id}>
