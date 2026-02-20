@@ -2,8 +2,11 @@
 
 ## Deploy
 
-[Versel](http.ok)
+- [Versel](https://portofolio-sandy-three.vercel.app/)
 
+## Desain
+- [Figma](https://www.figma.com/design/St7L3UrO1MbNedzDFH4OCl/Portfolio-2---REP?node-id=8411-143671&p=f&t=fpvv0UCF3bNOkckz-0)
+  
 ## Core
 
 - **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
