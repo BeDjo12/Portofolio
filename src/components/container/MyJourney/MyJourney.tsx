@@ -74,7 +74,7 @@ export const MyJourney = () => {
           y: 0,
         }}
         transition={{ ease: "easeInOut", duration: 0.9 }}
-        className="md:w-full max-w-361 flex flex-col gap-8 lg:gap-16"
+        className="w-full flex flex-col gap-8 lg:gap-16"
       >
         <h1 className="font-bold text-[32px]/[42px] lg:text-[48px]/[60px] lg:tracking-[-0.05em] tracking-[-0.04em] ">
           My Journey in Tech
