@@ -16,7 +16,6 @@ import PostgreSQL from "@/public/property/PostgreSQL.svg";
 import { ScrollArea, ScrollBar } from "../../ui/scroll-area";
 import React from "react";
 import { Separator } from "../../ui/separator";
-import Link from "next/link";
 import { motion } from "motion/react";
 
 const Tools = [
@@ -121,12 +120,12 @@ export const ToolsUse = () => {
             real products.
           </p>
         </div>
-        <Link href="#InputMail">
+        <a href="#InputMail">
           <Button className="h-48 w-full min-w-200 rounded-none bg-primary-300 flex items-center justify-center gap-8 cursor-pointer hover:scale-98 hover:shadow-[0px_0px_10px_1px_rgba(255,255,255,0.5)] transition-all ease-in-out duration-700">
             <Image src={mail} alt="mail" />
             <p>Send Message</p>
           </Button>
-        </Link>
+        </a>
       </div>
       <ScrollArea
         type="always"
@@ -139,7 +138,7 @@ export const ToolsUse = () => {
                 onClick={() => setActiveId(item.id)}
                 className="w-full cursor-pointer relative h-60 flex items-center justify-between text-[16px]/[30px] lg:text-[20px]/[34px] tracking-[-0.03em]  "
               >
-                <div className="flex flex-row gap-3 z-20 items-center  ">
+                <div className="flex flex-row gap-3 hover:scale-105 transition-all ease-in-out duration-700 hover:text-primary-300 hover:font-bold z-20 items-center  ">
                   <Image src={item.icon} alt="icon" className="w-60 h-60" />
                   <p>{item.name}</p>
                 </div>
@@ -151,7 +150,7 @@ export const ToolsUse = () => {
                     width: activeId === item.id ? item.Percentase : 0,
                   }}
                   transition={{ duration: 1, ease: "easeOut" }}
-                  className="h-full z-0 left-0 absolute bg-primary-300 "
+                  className="h-full z-0 left-0 absolute bg-neutral-600 shadow-lg shadow-cyan-500/50 "
                 />
               </div>
               {index !== Tools.length - 1 && (
