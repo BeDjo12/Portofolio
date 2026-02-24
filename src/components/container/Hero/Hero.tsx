@@ -61,7 +61,7 @@ export const Hero = () => {
         </motion.div>
         <motion.div
           initial={{ scale: 0, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
+          animate={{ scale: 1, opacity: 1 }}
           transition={{
             scale: { type: "spring", stiffness: 300, damping: 10 },
             opacity: { duration: 0.9 },
@@ -89,7 +89,7 @@ export const Hero = () => {
       </div>
       <motion.div
         initial={{ opacity: 0, y: 300 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0 }}
         transition={{ ease: "easeInOut", duration: 0.9 }}
         className="relative top-520 flex flex-col px-16 gap-32 w-full md:top-227 md:left-40 lg:left-140 md:w-[50%] lg:gap-62"
       >
